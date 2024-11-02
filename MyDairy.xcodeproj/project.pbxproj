@@ -13,6 +13,8 @@
 		3A515D6E2CD650A60042125E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A515D6C2CD650A60042125E /* Main.storyboard */; };
 		3A515D702CD650A70042125E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A515D6F2CD650A70042125E /* Assets.xcassets */; };
 		3A515D732CD650A70042125E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A515D712CD650A70042125E /* LaunchScreen.storyboard */; };
+		3A515D7D2CD6548E0042125E /* final-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A515D7C2CD6548E0042125E /* final-image.jpg */; };
+		3A515D7F2CD65EE80042125E /* MDCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A515D7E2CD65EE80042125E /* MDCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A515D6F2CD650A70042125E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A515D722CD650A70042125E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A515D742CD650A70042125E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A515D7C2CD6548E0042125E /* final-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "final-image.jpg"; path = "../../../Downloads/final-image.jpg"; sourceTree = "<group>"; };
+		3A515D7E2CD65EE80042125E /* MDCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3A515D6F2CD650A70042125E /* Assets.xcassets */,
 				3A515D712CD650A70042125E /* LaunchScreen.storyboard */,
 				3A515D742CD650A70042125E /* Info.plist */,
+				3A515D7C2CD6548E0042125E /* final-image.jpg */,
+				3A515D7E2CD65EE80042125E /* MDCardViewController.swift */,
 			);
 			path = MyDairy;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A515D7D2CD6548E0042125E /* final-image.jpg in Resources */,
 				3A515D732CD650A70042125E /* LaunchScreen.storyboard in Resources */,
 				3A515D702CD650A70042125E /* Assets.xcassets in Resources */,
 				3A515D6E2CD650A60042125E /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				3A515D6B2CD650A60042125E /* ViewController.swift in Sources */,
 				3A515D672CD650A60042125E /* AppDelegate.swift in Sources */,
 				3A515D692CD650A60042125E /* SceneDelegate.swift in Sources */,
+				3A515D7F2CD65EE80042125E /* MDCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
